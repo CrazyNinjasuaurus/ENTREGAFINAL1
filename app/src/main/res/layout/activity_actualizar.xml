@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ACTUALIZAR">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="387dp"
+        android:layout_height="783dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/actualizacion"
+        tools:ignore="ContentDescription,MissingConstraints,VisualLintBounds" />
+
+    <Button
+        android:id="@+id/btnIntentToActivityAtras"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="264dp"
+        android:layout_marginTop="60dp"
+        android:contentDescription="@android:string/yes"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints,DuplicateSpeakableTextCheck" />
+
+    <Button
+        android:id="@+id/btnIntentToActivityCancelar"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="123dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="620dp"
+        android:contentDescription="@android:string/yes"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints,DuplicateSpeakableTextCheck" />
+
+    <Button
+        android:id="@+id/btnIntentToActivityMenu"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="69dp"
+        android:layout_height="91dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="36dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints,SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="210dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="248dp"
+        android:autoSizeMaxTextSize="50dp"
+        android:text="Cedula De Ciudadania"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="311dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="332dp"
+        android:ems="10"
+        android:hint="Numero De Documento"
+        android:inputType="text"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextNombre"
+        android:layout_width="286dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="436dp"
+        android:ems="10"
+        android:hint="Primer Nombre"
+        android:inputType="text"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextApellido"
+        android:layout_width="311dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="540dp"
+        android:ems="10"
+        android:hint="Primer Apellido"
+        android:inputType="text"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonSiguiente"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="126dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="192dp"
+        android:layout_marginTop="620dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
